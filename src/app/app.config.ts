@@ -8,11 +8,11 @@ export const appConfig: ApplicationConfig = {
   providers: [
     provideRouter(routes),
     provideUnleashProxy({
+      refreshInterval: 1,
+      appName: 'customName',
       url: 'http://localhost:4242/api/frontend',
       clientKey: 'default:development.unleash-insecure-frontend-api-token',
-      appName: 'customName',
-      refreshInterval: 1,
-      context: { properties: { region: 'OP' } },
+      context: { properties: { region: 'HI' } },
     }),
   ],
 }
