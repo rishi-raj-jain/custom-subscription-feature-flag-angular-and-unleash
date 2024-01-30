@@ -1,27 +1,32 @@
-# CustomSubscriptionFeatureFlagAngularAndUnleash
+<!-- <a href="https://dev.to/reeshee/how-to-implement-feature-flags-in-astro-using-unleash-2fg5">
+  <img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/530o6ba6f438cuklmyxw.png" />
+</a> -->
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.1.
+# How to Implement Feature Flags in Angular using Unleash
 
-## Development server
+<a href="#introduction"><strong>Introduction</strong></a> · <a href="#tech-stack"><strong>Tech Stack</strong></a> · <a href="#author"><strong>Author</strong></a>
+<br/>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Introduction
 
-## Code scaffolding
+A demo of Feature Flags with [Angular](https://angular.io) and [Unleash](https://getunleash.io).
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Tech Stack
 
-## Build
+### Frameworks
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- [Angular](https://angular.io) – Framework
 
-## Running unit tests
+### Platforms
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- [Unleash](https://getunleash.io) – Feature Flags Management
 
-## Running end-to-end tests
+- [Vercel](https://vercel.com) – Hosting
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+### Code Quality
 
-## Further help
+- [Prettier](https://prettier.io/) – Opinionated code formatter for consistent code style
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Author
+
+- Rishi Raj Jain ([@rishi_raj_jain_](https://twitter.com/rishi_raj_jain_))
