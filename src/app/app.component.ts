@@ -7,6 +7,7 @@ import { FeatureEnabledDirective } from '@karelics/angular-unleash-proxy-client'
   templateUrl: './app.component.html',
   imports: [FeatureEnabledDirective],
 })
+
 export class AppComponent {
   title = 'custom-subscription-feature-flag-angular-and-unleash'
 }

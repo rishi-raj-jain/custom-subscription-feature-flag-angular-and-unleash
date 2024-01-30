@@ -1,3 +1,5 @@
-<div *featureEnabled="'regional'; else disabledTmpl">enabled</div>
+<div class="font-medium text-red-50" *featureEnabled="'regional'; else disabledTmpl">enabled</div>
 
-<ng-template #disabledTmpl>disabled</ng-template>
+<ng-template #disabledTmpl>
+  <span class="font-medium text-red-50"> disabled </span>
+</ng-template>
