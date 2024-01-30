@@ -12,7 +12,7 @@ export const appConfig: ApplicationConfig = {
       appName: 'customName',
       url: 'http://localhost:4242/api/frontend',
       clientKey: 'default:development.unleash-insecure-frontend-api-token',
-      context: { properties: { region: 'HI' } },
+      context: { properties: { subscription: 'Basic' } },
     }),
   ],
 }
